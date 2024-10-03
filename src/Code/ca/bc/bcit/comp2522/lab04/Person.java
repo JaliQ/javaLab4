@@ -1,3 +1,5 @@
+package ca.bc.bcit.comp2522.lab04;
+
 /**
  * @author Nickolay Makarenko
  * @author Alex He
@@ -9,7 +11,7 @@ public class Person implements Comparable<Person>, Printable, Reversible {
     private final Date dateDied;
 
     /**
-     * Constructs a Person object with a name, date of birth, and optional date of death.
+     * Constructs a ca.bc.bcit.comp2522.lab04.Person object with a name, date of birth, and optional date of death.
      *
      * @param name     the person's name
      * @param dateBorn the person's date of birth
@@ -34,6 +36,11 @@ public class Person implements Comparable<Person>, Printable, Reversible {
                 + ", " + dateDied.getMonth() + " " + dateBorn.getDay() + ", " + dateDied.getYear())
                 + ") was born on " + dateBorn.getDayOfWeek() + ", " + dateBorn.getMonth() + " " + dateBorn.getDay()
                 + ", " + dateBorn.getYyyyMmDd());
+    }
+
+    @Override
+    public void backward() {
+        backwards();
     }
 
     /**

@@ -1,5 +1,7 @@
+package ca.bc.bcit.comp2522.lab04;
+
 /**
- * Name class
+ * ca.bc.bcit.comp2522.lab04.Name class
  * @author Nickolay Makarenko
  * @author Alex He
  * @version 1.0
@@ -13,7 +15,7 @@ public class Name  implements Printable{
     private static final int LAST_INDEX = 1;
 
     /**
-     * Constructs a new Name object.
+     * Constructs a new ca.bc.bcit.comp2522.lab04.Name object.
      *
      * @param first the first name
      * @param last the last name

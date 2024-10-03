@@ -1,5 +1,7 @@
+package ca.bc.bcit.comp2522.lab04;
+
 /**
- * The Printable interface defines a contract for displaying
+ * The ca.bc.bcit.comp2522.lab04.Printable interface defines a contract for displaying
  * all instance variables of an implementing class in a sentence.
  * @author Nickolay Makarenko
  * @author Alex He

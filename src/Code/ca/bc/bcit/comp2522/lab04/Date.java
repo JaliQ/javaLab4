@@ -1,3 +1,5 @@
+package ca.bc.bcit.comp2522.lab04;
+
 /**
  * @author Nickolay Makarenko
  * @author Alex He
@@ -48,7 +50,7 @@ public class Date implements Printable{
     private final int day;   // Day of the date (1-31)
 
     /**
-     * Constructs a new Date object.
+     * Constructs a new ca.bc.bcit.comp2522.lab04.Date object.
      *
      * @param year  the year
      * @param month the month (1-12)
@@ -118,7 +120,7 @@ public class Date implements Printable{
      * @param year  the year
      * @param month the month
      * @param day   the day
-     * @throws IllegalArgumentException if Date doesn't meet conditions
+     * @throws IllegalArgumentException if ca.bc.bcit.comp2522.lab04.Date doesn't meet conditions
      */
     public void throwDateException(final int year, final int month, final int day) {
         throw new IllegalArgumentException("Invalid date: " + year + "-" + month + "-" + day);
